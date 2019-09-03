@@ -1,0 +1,168 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "animal sound",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnimalSoundIntent",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "AMAZON.Animal"
+                        }
+                    ],
+                    "samples": [
+                        "what is {animal}",
+                        "tell me about {animal}",
+                        "Tell me somthing about {animal} ",
+                        "What sound does {animal} makes",
+                        "What sound does a {animal} makes",
+                        "What sound does an {animal} makes",
+                        "how does {animal} sound",
+                        "What sound does an {animal} make",
+                        "What do an {animal} say",
+                        "What do a {animal} say",
+                        "{animal}",
+                        "What do {animal} say",
+                        "What sound does a {animal} make"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.Animal",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "monkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "horse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "raccon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "whale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crocodile"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fox"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bird"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "duck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "goat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chicken"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pig"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mouse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "donkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sheep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dog"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
